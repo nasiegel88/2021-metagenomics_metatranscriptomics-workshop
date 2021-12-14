@@ -46,5 +46,5 @@ Logical operators in R
 | `!`      | Logical not              |
 | `&`      | Element-wise logical AND |
 | `&&`     | Logical &&               |
-| `|`      | Element-wise logical OR  |
-| `||`     | Logical OR               |
+| `\|`      | Element-wise logical OR  |
+| `\|\|`     | Logical OR               |
