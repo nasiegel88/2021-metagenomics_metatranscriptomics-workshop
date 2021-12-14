@@ -15,7 +15,7 @@
 start=`date +%s`
 hostname
 
-export baseP=$(~/2021-metagenomics_metatranscriptomics-workshop/)
+export baseP=/share/workshop/meta_workshop/noahs/2021-metagenomics_metatranscriptomics-workshop
 export seqP=$baseP/00-RawData
 export cwd=$baseP/scripts
 
