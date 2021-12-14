@@ -1,0 +1,7 @@
+Module bowtie2-2.4.2-lssc0-linux loaded. Bowtie 2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences. It is particularly good at aligning reads of about 50 up to 100s or 1,000s of characters, and particularly good at aligning to relatively long (e.g. mammalian) genomes. Bowtie 2 indexes the genome with an FM Index to keep its memory footprint small: for the human genome, its memory footprint is typically around 3.2 GB. Bowtie 2 supports gapped, local, and paired-end alignment modes.
+---
+Module bedtools2-2.29.2-lssc0-linux loaded. Collectively, the bedtools utilities are a swiss-army knife of tools for a wide-range of genomics analysis tasks. The most widely-used tools enable genome arithmetic: that is, set theory on the genome. For example, bedtools allows one to intersect, merge, count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF.
+---
+Module samtools-1.11-lssc0-linux loaded. Samtools is a suite of programs for interacting with high-throughput sequencing data.
+---
+slurmstepd: error: *** JOB 45726267 ON drove-0 CANCELLED AT 2021-12-14T14:49:53 ***

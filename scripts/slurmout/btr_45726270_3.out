@@ -1,0 +1,6 @@
+fleet-19
+ANG_303
+DNA
+8
+bowtie2 -x /share/workshop/meta_workshop/noahs/2021-metagenomics_metatranscriptomics-workshop/References/GCF_002263795.1_ARS-UCD1.2_genomic -1 <(zcat /share/workshop/meta_workshop/noahs/2021-metagenomics_metatranscriptomics-workshop/01-HTS_Preproc-test/DNA/ANG_303/ANG_303_DNA_R1.fastq.gz) -2 <(zcat /share/workshop/meta_workshop/noahs/2021-metagenomics_metatranscriptomics-workshop/01-HTS_Preproc-test/DNA/ANG_303/ANG_303_DNA_R2.fastq.gz) -q --phred33 --sensitive --end-to-end -p 8 |samtools view -bh - |samtools view -bh -f 12 -F 256 - |samtools sort -n - | bedtools bamtofastq -i - -fq /share/workshop/meta_workshop/noahs/2021-metagenomics_metatranscriptomics-workshop/02-DNA-rmhost-test/ANG_303/ANG_303_hostrmvd_R1.fastq -fq2 /share/workshop/meta_workshop/noahs/2021-metagenomics_metatranscriptomics-workshop/02-DNA-rmhost-test/ANG_303/ANG_303_hostrmvd_R2.fastq
+Runtime: 245 seconds
