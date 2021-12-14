@@ -48,3 +48,5 @@ Logical operators in R
 | `&&`     | Logical &&               |
 | `\|`      | Element-wise logical OR  |
 | `\|\|`     | Logical OR               |
+
+## Day 2
