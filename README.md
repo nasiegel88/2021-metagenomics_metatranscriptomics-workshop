@@ -3,7 +3,7 @@ My notes from the 2021 UC Davis Metagenomics and Metatranscriptomics workshop
 
 [Metagenomics and Metatranscriptomics workshop](https://ucdavis-bioinformatics-training.github.io/2021-December-Metagenomics-and-Metatranscriptomics/base/schedule)
 
-## Day 1
+## Day 1: Introduction to the command line and to R
 * Background on metagenomics and metatranscriptomics
 * Intro to metagenomics and transcriptomics
 * Intro to the command line
@@ -49,4 +49,15 @@ Logical operators in R
 | `\|`      | Element-wise logical OR  |
 | `\|\|`     | Logical OR               |
 
-## Day 2
+## Day 2: HTStream
+
+[HTStream](https://s4hts.github.io/HTStream/) is an anlysis package developed by the UC Davis bioinformatics core.
+
+Processing pipeline:
+1. hts_Stats: get stats on input raw reads
+1. hts_SeqScreener: remove PhiX
+1. hts_AdapterTrimmer: identify and remove adapter sequence
+1. hts_Overlapper: overlap paired end reads (RNA data only)
+1. hts_QWindowTrim: remove poor quality bases
+1. hts_LengthFilter: use to remove all reads < 50bp for DNA data and < 30bp for RNA data
+1. hts_Stats: get stats on output cleaned reads
