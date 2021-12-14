@@ -6,6 +6,8 @@ bin-release/
 
 # Other files and folders
 *.fastq.gz
+*.bt2
+*.fna
 
 # Executables
 *.swf
