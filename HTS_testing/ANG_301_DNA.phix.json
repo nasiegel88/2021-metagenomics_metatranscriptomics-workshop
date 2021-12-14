@@ -1,0 +1,51 @@
+[ {
+    "Program_details": {
+        "program": "hts_SeqScreener",
+        "version": "v1.3.2",
+        "options": {
+            "check-read-2": false,
+            "fastq-output": "ANG_301_DNA.phix",
+            "force": false,
+            "inverse": false,
+            "kmer": 12,
+            "notes": "",
+            "percentage-hits": 0.25,
+            "read1-input": [ "ANG_301_DNA.subset_R1.fastq.gz"],
+            "read2-input": [ "ANG_301_DNA.subset_R2.fastq.gz"],
+            "record": false,
+            "stats-file": "ANG_301_DNA.phix.json",
+            "uncompressed": false
+        },
+        "screen_info": {
+            "screenBP": 5386,
+            "lookupKmers": 5372
+        }
+    },
+    "Fragment": {
+        "in": 100000,
+        "out": 99824,
+        "basepairs_in": 20000000,
+        "basepairs_out": 19964800
+    },
+    "Single_end": {
+        "in": 0,
+        "out": 0,
+        "basepairs_in": 0,
+        "basepairs_out": 0,
+        "hits": 0
+    },
+    "Paired_end": {
+        "in": 100000,
+        "out": 99824,
+        "hits": 176,
+        "Read1": {
+            "basepairs_in": 10000000,
+            "basepairs_out": 9982400
+        },
+        "Read2": {
+            "basepairs_in": 10000000,
+            "basepairs_out": 9982400
+        }
+    }
+  }
+]
