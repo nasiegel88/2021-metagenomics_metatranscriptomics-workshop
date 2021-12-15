@@ -8,10 +8,8 @@ bin-release/
 *.fastq.gz
 *.bt2
 *.fna
-scripts/slurmout/*.bam
-scripts/slurmout/*.err
-*-Kraken-test/ANG_301/*.out
- 
+scripts/slurmout/*
+scripts/slurmout/* 
 
 # Executables
 *.swf
