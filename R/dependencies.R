@@ -58,3 +58,8 @@ if(!require(DSS)){
   BiocManager::install("DSS", force = T)
   library('DSS')
 }
+
+if(!require(edgeR)){
+  BiocManager::install("edgeR", force = T)
+  library('edgeR')
+}
