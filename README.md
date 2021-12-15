@@ -63,5 +63,5 @@ Processing pipeline:
 1. hts_Stats: get stats on output cleaned reads
 
 ## Day 3
-Reference-based annotation vs. de novo annotations
+### Reference-based annotation vs. de novo annotations
 Similar to 16S, whole-genome sequencing can utilize reference databases. Standard software used for reference annotation includes Braken and Kraken. De nova annotation can be done using a variety of assemblers. The assembler used in this workshop was megahit.
