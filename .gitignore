@@ -10,7 +10,7 @@ bin-release/
 *.fna
 *.bam
 *.err
-*.out
+*-Kraken-test/ANG_301/*.out
 
 # Executables
 *.swf
