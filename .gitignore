@@ -9,6 +9,8 @@ bin-release/
 *.bt2
 *.fna
 *.bam
+*.err
+*.out
 
 # Executables
 *.swf
