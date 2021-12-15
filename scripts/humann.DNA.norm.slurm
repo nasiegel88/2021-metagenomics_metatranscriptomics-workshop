@@ -10,12 +10,13 @@
 #SBATCH --account=workshop
 #SBATCH --output=slurmout/hmadn_%A_%a.out # File to which STDOUT will be written
 #SBATCH --error=slurmout/hmadn_%A_%a.err # File to which STDERR will be written
-
+#SBATCH --mail-user=nasiegel@ucdavis.edu        # email address to recieve notification
+#SBATCH --mail-type=ALL                         # NOTIFICATIONS OF SLURM JOB STATUS
 
 start=`date +%s`
 hostname
 
-export baseP=/share/workshop/meta_workshop/$USER/meta_example
+export baseP=/share/workshop/meta_workshop/noahs/2021-metagenomics_metatranscriptomics-workshop
 export seqP=$baseP/02-DNA-rmhost
 export outP=$baseP/03-HUMANN-DNA
 export databaseP=$baseP/References/databases
