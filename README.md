@@ -62,6 +62,9 @@ Processing pipeline:
 1. hts_LengthFilter: use to remove all reads < 50bp for DNA data and < 30bp for RNA data
 1. hts_Stats: get stats on output cleaned reads
 
-## Day 3
+## Day 3: Metagenomics
 ### Reference-based annotation vs. de novo annotations
 Similar to 16S, whole-genome sequencing can utilize reference databases. Standard software used for reference annotation includes Braken and Kraken. De nova annotation can be done using a variety of assemblers. The assembler used in this workshop was megahit.
+
+## Day 4: Metatranscriptomics
+Packages from Biobakery are some of the best suited for metatranscriptomic analysis'. Biobakery3 is a suite of packages develped by a team of scientists from US and Italy (Harvard, US; Univ. of Trento, Italy; Broad Institute, US; Edmund Mach Foundation, Italy; IEO, Italy). It has integrated tools with improved methods for taxonomic, strain-level, functional, and phylogenetic profiling of metagenomes.
