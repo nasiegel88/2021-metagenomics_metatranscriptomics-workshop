@@ -68,3 +68,6 @@ Similar to 16S, whole-genome sequencing can utilize reference databases. Standar
 
 ## Day 4: Metatranscriptomics
 Packages from Biobakery are some of the best suited for metatranscriptomic analysis'. Biobakery3 is a suite of packages develped by a team of scientists from US and Italy (Harvard, US; Univ. of Trento, Italy; Broad Institute, US; Edmund Mach Foundation, Italy; IEO, Italy). It has integrated tools with improved methods for taxonomic, strain-level, functional, and phylogenetic profiling of metagenomes.
+
+## Day 5: Integrating metagenomics and metatranscriptomics data
+There are many ways to integrate metagenomics and metatranscriptomics data however, in this workshop we used HUMAnN3 metagenomic and metatranscriptomic output to run a differential analysis using  [MTX_model](https://github.com/biobakery/MTX_model).
